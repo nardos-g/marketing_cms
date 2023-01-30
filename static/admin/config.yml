@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: thomaswang/gatsby-personal-starter-blog
 
 media_folder: content/assets
