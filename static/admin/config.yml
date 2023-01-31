@@ -16,3 +16,12 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+
+  - name: marketing
+    label: Marketing-blog
+    folder: content/marketing_blog
+    create: true
+    fields:
+      - { name: header, label: header }
+      - { name: date, label: Date }
+      - { name: body, label: Body, widget: markdown }
